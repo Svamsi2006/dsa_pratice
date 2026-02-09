@@ -1,4 +1,4 @@
-##delete node
+### delete node
 ```public:
     void deleteNode(ListNode* node) {
         
