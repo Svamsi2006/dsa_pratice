@@ -17,6 +17,11 @@ struct node {
     node *link;
 };
 ```
+<img width="737" height="97" alt="image" src="https://github.com/user-attachments/assets/cb6a14b4-d69c-41ca-a3e5-729a16e4c696" />
+
+
+<img width="629" height="98" alt="image" src="https://github.com/user-attachments/assets/c0037c82-97e1-4d0e-b9a3-f2f9ca7b763c" />
+
 ## insert at first code
 ```
 void insert_at_first(node **head, int c) {
