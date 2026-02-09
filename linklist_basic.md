@@ -8,7 +8,7 @@
     }
 };
 ```
-## insert at first code 
+## node structure 
 ```
 #include<iostream>
 using namespace std;
@@ -77,4 +77,6 @@ int x[5];
     return 0;
 }
 ```
+
+
 
