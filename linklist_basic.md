@@ -135,3 +135,34 @@ public:
     }
 };
 ```
+
+
+
+### Remove Duplicates from Sorted List
+
+
+![Uploading image.png…]()
+
+
+
+
+```
+class Solution {
+public:
+    ListNode* deleteDuplicates(ListNode* head) {
+        ListNode* hi=head;
+        
+        while(hi!=NULL && hi->next!=NULL){
+            if(hi->val == hi->next->val){
+                hi->next=hi->next->next;
+            }
+            else{
+                hi=hi->next;
+            }
+            
+        }
+        return head;
+        
+    }
+};
+```
