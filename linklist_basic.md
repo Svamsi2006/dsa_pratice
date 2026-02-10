@@ -84,4 +84,25 @@ int x[5];
 ```
 
 
+### Reverse linklist
+<img width="542" height="222" alt="image" src="https://github.com/user-attachments/assets/49a36393-93dd-43e4-be5c-5fab9a2c6d17" />
+
+```
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head) {
+        ListNode* prev=NULL;
+        ListNode* next =NULL;
+        ListNode* curr =head;
+        while(curr != NULL){
+            next=curr->next;
+            curr->next=prev;
+            prev=curr;
+            curr=next;
+        }
+        return prev;
+    }
+};
+```
+
 
