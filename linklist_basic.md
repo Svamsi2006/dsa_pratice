@@ -141,7 +141,8 @@ public:
 ### Remove Duplicates from Sorted List
 
 
-![Uploading image.png…]()
+<img width="542" height="222" alt="image" src="https://github.com/user-attachments/assets/2743a592-d567-4124-8670-e641421d4d80" />
+
 
 
 
