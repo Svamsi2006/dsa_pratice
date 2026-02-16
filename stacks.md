@@ -58,3 +58,29 @@ class Solution {
 
 
 ### reverse a stack 
+
+<img width="654" height="309" alt="image" src="https://github.com/user-attachments/assets/f2a8b668-cc36-4d39-bd3c-424d9d56140b" />
+
+
+```
+class Solution {
+  public:
+    void reverseStack(stack<int> &st) {
+        // code here
+        stack<int> temp;
+        while(!st.empty()){
+            temp.push(st.top());
+            st.pop();
+        }
+        stack<int> temp1;
+        while(!temp.empty()){
+            temp1.push(temp.top());
+            temp.pop();
+        }
+        while(!temp1.empty()){
+            st.push(temp1.top());
+            temp1.pop();
+        }
+    }
+};
+```
