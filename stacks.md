@@ -27,7 +27,7 @@ int main() {
 
 
 ### Insert an Element at the Bottom of a Stack
-
+```
 Input:
 n = 5
 x = 2
@@ -36,7 +36,9 @@ Output:
 {2,4,3,2,1,8}
 Explanation:
 After insertion of 2, the final stack will be {2,4,3,2,1,8}. 
+```
 
+### solution
 ```
 class Solution {
   public:
