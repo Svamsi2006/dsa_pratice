@@ -90,19 +90,21 @@ int x[5];
 ```
 class Solution {
 public:
-    ListNode* reverseList(ListNode* head) {
-        ListNode* prev=NULL;
-        ListNode* next =NULL;
-        ListNode* curr =head;
-        while(curr != NULL){
-            next=curr->next;
-            curr->next=prev;
-            prev=curr;
-            curr=next;
+    Node* reverseList(Node* head) {
+        Node* prev = NULL;
+        Node* curr = head;
+        
+        while (curr != NULL) {
+            Node* nextNode = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = nextNode;
         }
+        
         return prev;
     }
 };
+
 ```
 
 ### Palindrome Linked List
