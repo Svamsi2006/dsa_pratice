@@ -7,10 +7,6 @@
         
     }
 };
-
-
-
-
 ```
 ## node structure 
 ```
