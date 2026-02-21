@@ -57,4 +57,18 @@ int main()
 }
 ```
 
+### print element  
+
+```
+void printt(Node* root){
+    if (!root) return;
+    
+   
+    printt(root->left);
+    cout<<root->data<<" -> ";
+    printt(root->right);
+}
+```
+
+
 
