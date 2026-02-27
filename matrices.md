@@ -1,4 +1,4 @@
-### matrices CODE
+### Matrices CODE
 
 ```
 #include <bits/stdc++.h>
