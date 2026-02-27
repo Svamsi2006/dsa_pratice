@@ -3,7 +3,9 @@
 ```
 #include <bits/stdc++.h>
 using namespace std;
-
+```
+### Main code
+```
 
 int main() {
 	// your code goes here
