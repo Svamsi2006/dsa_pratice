@@ -104,9 +104,49 @@ int main() {
 ```
     for(int i: arr){
         cout<<i<<" ";
-    }
+    }  //(start to end)
     for(auto i=myList.rbegin();i!=myList.rend();i++){
         cout<<*i<<" ";
-    }
+    } //(end to start)
 ```
 
+# For queue and stack that is differnt 
+| Stack use == st.top()  | queue use == st.front() |
+| --- | --- |
+
+
+### Stack
+
+```
+int main() {
+    stack<int> st;
+    st.push(7);
+    st.push(14);
+    st.push(21);
+
+    cout << "Stack traversal: ";
+    while (!st.empty()) {
+        cout << st.top() << " ";
+        st.pop();
+    }
+    cout << endl;
+}
+```
+
+### Queue
+
+```
+int main() {
+    queue<int> q;
+    q.push(100);
+    q.push(200);
+    q.push(300);
+
+    cout << "Queue traversal: ";
+    while (!q.empty()) {
+        cout << q.front() << " ";
+        q.pop();
+    }
+    cout << endl;
+}
+```
