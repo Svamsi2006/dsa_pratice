@@ -102,12 +102,16 @@ int main() {
 # The iteration of all (Vector, Deque & List)  has same code 
 
 ```
+ //(start to end)
     for(int i: arr){
         cout<<i<<" ";
-    }  //(start to end)
+    }
+```
+```
+//(end to start)
     for(auto i=myList.rbegin();i!=myList.rend();i++){
         cout<<*i<<" ";
-    } //(end to start)
+    } 
 ```
 
 # For queue and stack that is differnt 
