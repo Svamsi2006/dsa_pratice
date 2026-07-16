@@ -56,3 +56,12 @@ l.pop_back();      // remove from end
 l.pop_front();     // remove from front
 
 ```
+
+| Operation | Vector | Deque | List | Queue | Stack |
+| --- | --- | --- | --- | --- | --- |
+| Insert at End | O(1)* | O(1) | O(1) | O(1) | O(1) |
+| Insert at Front | ❌ | O(1) | O(1) | ❌ | ❌ |
+| Remove from End | O(1) | O(1) | O(1) | ❌ | O(1) |
+| Remove from Front | ❌ | O(1) | O(1) | O(1) | ❌ |
+| Random Access | O(1) | O(1) | O(n) | ❌ | ❌ |
+
