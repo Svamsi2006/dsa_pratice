@@ -65,7 +65,7 @@ l.pop_front();     // remove from front
 | Remove from Front | ❌ | O(1) | O(1) | O(1) | ❌ |
 | Random Access | O(1) | O(1) | O(n) | ❌ | ❌ |
 
-# power of list used as linklist as an STL command
+# Power of list used as linklist as an STL command
 
 
 ### we can traverse from left to right and right t left like head -> root && root -> head 
@@ -93,7 +93,7 @@ int main() {
         cout << *it << " ";
     }
     cout << endl;
-    
+```    
     // auto itt=myList.begin();
     // cout<<*itt;
     // ++itt;
@@ -102,7 +102,7 @@ int main() {
     // for(auto i=myList.rbegin();i!=myList.rend();i++){
     //     cout<<*i<<" ";
     // }
-
+```
     return 0;
 }
 ```
