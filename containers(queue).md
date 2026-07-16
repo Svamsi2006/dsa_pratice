@@ -93,17 +93,20 @@ int main() {
         cout << *it << " ";
     }
     cout << endl;
-```    
-    // auto itt=myList.begin();
-    // cout<<*itt;
-    // ++itt;
-    //  cout<<*itt<<" ";
-     
-    // for(auto i=myList.rbegin();i!=myList.rend();i++){
-    //     cout<<*i<<" ";
-    // }
-```
+
     return 0;
 }
+```
+
+
+# The iteration of all (Vector, Deque & List)  has same code 
+
+```
+    for(int i: arr){
+        cout<<i<<" ";
+    }
+    for(auto i=myList.rbegin();i!=myList.rend();i++){
+        cout<<*i<<" ";
+    }
 ```
 
