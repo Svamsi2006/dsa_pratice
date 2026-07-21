@@ -53,4 +53,14 @@ public:
 };
 ```
 
+## Find substring in main string code easy man 
 
+```
+class Solution {
+public:
+    int strStr(string haystack, string needle) {
+        int hi=haystack.find(needle);
+        return hi;
+    }
+};
+```
